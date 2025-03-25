@@ -71,40 +71,6 @@
     .download-resume a:hover {
       background: #334155;
     }
-    .contact-form input,
-    .contact-form textarea {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    .contact-form button {
-      background: #1e293b;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .contact-form button:hover {
-      background: #334155;
-    }
-    .toggle-dark-mode {
-      text-align: center;
-      margin: 20px;
-    }
-    .toggle-dark-mode button {
-      background: #1e293b;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .toggle-dark-mode button:hover {
-      background: #334155;
-    }
     footer {
       text-align: center;
       padding: 15px;
@@ -131,9 +97,53 @@
     <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
   </div>
   <div class="container">
+    <section class="section" id="about">
+      <h2>About Me</h2>
+      <p>Experienced software engineer with expertise in full-stack development, cloud computing, and system optimization. Passionate about designing scalable solutions, migrating legacy applications to the cloud, and mentoring junior developers.</p>
+    </section>
+    <section class="section" id="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Senior Java Developer, Corewell Health</strong> (2021 - Present) - Developed cloud-native solutions on AWS, modernized high-latency batch jobs into real-time processes, and enhanced application scalability using Kubernetes (EKS).</li>
+        <li><strong>Senior Java Developer Analyst, Amway</strong> (2019 - 2021) - Migrated monolithic applications to microservices on AWS, implemented CI/CD pipelines, and optimized database performance.</li>
+        <li><strong>Associate Full Stack Engineer, Clara Analytics</strong> (2018 - 2019) - Developed InsurTech applications using Angular and Play framework, and improved platform performance with NoSQL databases.</li>
+      </ul>
+    </section>
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>AWS Batch to Real-Time Pipeline</strong> - Replaced high-latency batch jobs with a real-time event-driven pipeline using AWS Lambda and Kinesis.</li>
+        <li><strong>Multi-Tenant InsurTech Platform</strong> - Developed a cloud-based application connecting injured workers with healthcare providers.</li>
+        <li><strong>Incentive Calculation System</strong> - Designed a system for automated calculation and validation of incentive payouts using Java and Oracle.</li>
+      </ul>
+    </section>
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <p><strong>Languages:</strong> Java, Python, Node.js, JavaScript, TypeScript, PHP</p>
+      <p><strong>Cloud & DevOps:</strong> AWS (CDK, EC2, EKS, Lambda, S3), Docker, Kubernetes, Jenkins</p>
+      <p><strong>Databases:</strong> DynamoDB, MongoDB, MySQL, Oracle, Elasticsearch</p>
+      <p><strong>Frontend & Web:</strong> Angular, React, HTML5, CSS, Bootstrap</p>
+    </section>
+    <section class="section" id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>AWS Gen AI (Business)</li>
+      </ul>
+    </section>
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <p>Master of Science, Information Systems - University of Nebraska Omaha (2017)</p>
+      <p>Master of Science, Information Technology - IIIT Hyderabad (2013)</p>
+      <p>Bachelor of Science, Computer Science - JNT University Hyderabad (2011)</p>
+    </section>
     <section class="section download-resume">
       <h2>Download My Resume</h2>
       <a href="Ayanala_Resume.pdf" download>Download Resume (PDF)</a>
+    </section>
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:gnaneshwar511@gmail.com">gnaneshwar511@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/gnaneshwar-ayanala-49a86321" target="_blank">View Profile</a></p>
     </section>
   </div>
   <footer>
